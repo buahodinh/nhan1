@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+.nhan{
+    z-index: 1;
+    
+    position: fixed; 
+    width: 100%;
+    height: 28px;
+    background-image: linear-gradient(0,#10592e,#10592e);
+    background-size: cover;
+    display: flex;
+    top: 0%;
+    justify-content: space-around;
+
+    
+}
+
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    
+
+}
+
+.button {
+    position: absolute;
+    right: 30px;
+    background-color: #FF0000;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2em;
+}
+/* header */
+.header{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(img/Rectangle.png) no-repeat center center/cover;
+    height: 400px;
+    filter:brightness(110%);
+}
+.txt{
+    margin-right: 600px;
+}
+
+#a{
+    position: relative;   
+}
+
+.btn {
+    border-radius: 2em;
+    /* position: absolute; */
+    /* right: 1000px; */
+    background-color: #8dc642;
+    border: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    height: 45px;
+    text-align: left;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imgkit {
+    position: absolute;
+    z-index: 9;
+    left: 158px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* end of header */
+
+/* Section: What You Get */
+
+.what{
+    padding-top: 20px;
+}
+#what .items {
+	display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+	flex:1;
+	text-align: center;
+	padding : 1rem;
+}
+
+#what .items .item i {
+	background: #93cb52;
+	padding: 1rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.m-heading{
+    padding-top: 30px;
+}
+
+
+/* Section: As Seen On */
+
+.clients{
+    padding-top: 20px;
+}
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.items.py-1 {
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+
+/* Section: Lab */
+#lab {
+    display: flex;
+    padding-top: 20px;
+}
+#lab div {
+    flex: 1;
+}
+
+.text{
+    order: 1;
+    margin-left: 165px;
+    margin-right: 85px;
+}
+
+.image{
+    order: 2;
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+ @import url(https://fonts.googleapis.com/css?family=Raleway:400);
+.btn1 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #565ba5;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn1:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.btn1:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 5px solid #5666a5;
+  content: '';
+  border-radius: inherit;
+}
+.btn1:hover,
+.btn1.hover {
+  background-color: #5666a5;
+  color: #ffffff;
+}
+.btn1:hover:before,
+.btn1.hover:before {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+
+
+/* Section: Our Process */
+#who {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+#who div {
+    flex: 1;
+}
+
+.text1{
+    padding-top: 100px;
+    text-align: center;
+    order: 2;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.img{
+    order: 1;
+    margin-right: 85px;
+    margin-left: 165px;
+
+}
+
+/* Section: Parent */
+#parent{
+    background-image: url("img/anhnen.png");
+    height: 550px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+}
+.aaa{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Section: Questions */
+
+#question{
+    margin-bottom: 30px;
+}
+
+.txt2{
+    text-align: center;
+}
+
+.accordion{
+    border-radius: 2em;
+}
+
+/* Section: Email */
+#mail{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgmail{
+    margin-left: 29px;
+}
+
+.mailright{
+    max-width: 300px;
+}
+
+.input{
+    width: 333px;
+    height: 43px;
+    border-radius: 2em;
+    margin-right: 100px;
+    border: 2px solid #e1e1e1;
+    font-size: 15px;
+    outline: none;
+}
+
+.imgmail1{
+    width: 42px;
+    position: absolute;
+    z-index: 9;
+    right: 112px;
+}
+
+.textmail1{
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.ab{
+    max-width: 300px;
+    margin-right: 100px;
+}
+
+.ab1{
+    right: 100px;
+}
+
+/* Section:list */
+#listss{
+    background-color: #d4e2d6;
+    height: 500px;
+}
+
+.listmng{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.list2{
+    padding-top: 25px;
+}
+
+.ul{
+    list-style: none;
+}
+
+.copyright{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+
