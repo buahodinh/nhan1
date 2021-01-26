@@ -16,8 +16,16 @@
 }
 
 
+.nav_bar-btn{
+    width: 28px;
+    height: 28px;
+    display: none;
+    margin-right: 8px;
+}
+
+
 .navbar-nav {
-    margin: auto;
+    margin:auto;
     display: flex;
     
 
@@ -344,6 +352,10 @@
     padding-top: 50px;
     text-align: center;
 }
+
+
+
+
 
 
 
