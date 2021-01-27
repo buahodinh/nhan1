@@ -7,7 +7,90 @@
  
 /* Small tablet to big tablet from 768x to 1023px */
 @media only screen and (max-width:1023px){
+
+    .nhan{
+        width: 85%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .nav{
+        display: flex;
+        padding-right: 184px;
+        font-size: 13px;
+    }
+
+    .imgnav{
+        width: 135px;
+    }
+
+    .button{
+        width: 120px;
+    }
+
+    .header{
+        max-width: 100%;
+        height: 300px;
+        filter:brightness(110%);
+    }
+    
+    .kit{
+        font-size: 15px;
+    }
+
+    .textkit{
+        padding-top: 40px;
+    }
+    
+    .txt{
+        margin-right: 370px;
+    }
+
+    .text{
+        order: 1;
+        padding-left: 59px;
+        font-size: 11px;
+    }
+
+    .btn1{
+        width: 186px;
+    }
+
+    .image{
+        padding-left: 0px;
+        width: 428px;
+        height: 300px;
+    }
      
+    .img{
+       padding-left: 31px; 
+    }
+
+    .text1{
+        padding-left: 0px;
+        padding-top: 20px;
+
+    }
+
+    .btnparent{
+        padding-top: 65px;
+    }
+
+    .text2{
+        font-size: 12px;
+    }
+
+    .listmng{
+        padding-right: 15px;
+    }
+
+    .txtmail{
+        font-size: 15px;
+    }
+
+    .imgmail1{
+        right: 70px;
+    }
 }
  
 /* Small phones to small tablets */

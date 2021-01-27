@@ -31,6 +31,13 @@
 
 }
 
+.navbar{
+    padding-top: 50px;
+}
+
+.imgnav{
+    width: 150px;
+}
 
 .button {
     position: absolute;
@@ -57,6 +64,10 @@
 }
 .txt{
     margin-right: 600px;
+}
+
+.textkit{
+    padding-top: 100px;
 }
 
 #a{
@@ -148,20 +159,20 @@
     display: flex;
     padding-top: 20px;
 }
-#lab div {
+#lab  {
     flex: 1;
 }
 
 .text{
     order: 1;
-    margin-left: 165px;
-    margin-right: 85px;
+    padding-left: 165px;
+    padding-right: 85px;
 }
 
 .image{
     order: 2;
-    margin-right: 100px;
-    margin-left: 90px;
+    padding-right: 100px;
+    padding-left: 90px;
 }
 
  @import url(https://fonts.googleapis.com/css?family=Raleway:400);
@@ -243,14 +254,14 @@
     padding-top: 100px;
     text-align: center;
     order: 2;
-    margin-left: 50px;
-    margin-right: 150px;
+    padding-left: 50px;
+    padding-right: 150px;
 }
 
 .img{
     order: 1;
-    margin-right: 85px;
-    margin-left: 165px;
+    padding-right: 85px;
+    padding-left: 165px;
 
 }
 
@@ -266,6 +277,8 @@
     display: flex;
     justify-content: space-around;
 }
+
+
 
 /* Section: Questions */
 
