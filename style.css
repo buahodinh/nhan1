@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
+
+
 .nhan{
     z-index: 1;
     
@@ -27,12 +29,14 @@
 .navbar-nav {
     margin:auto;
     display: flex;
+    color: black;
     
 
 }
 
 .navbar{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .imgnav{
@@ -63,7 +67,7 @@
     filter:brightness(110%);
 }
 .txt{
-    margin-right: 600px;
+    padding-right: 600px;
 }
 
 .textkit{
